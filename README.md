@@ -1,16 +1,53 @@
-# React + Vite
+# 🚀 LuxA AI — Voice-Controlled React Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LuxA is a modular voice assistant built using React, Tailwind CSS, and Gemini API. It listens to user commands, responds with real-time speech, and displays animated feedback. Designed for beginner accessibility, LuxA supports Hinglish prompts and scalable command handling — making it ideal for demos, hackathons, and real-world use.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Project Overview
 
-## React Compiler
+LuxA AI is a plug-and-play assistant that uses the Web Speech API to capture voice input and Google Gemini to generate intelligent responses. It supports both hardcoded commands (like opening websites or telling time) and dynamic AI replies. The UI updates in real-time with GIFs and text, creating an engaging experience for users.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** — Component-based frontend framework
+- **Tailwind CSS** — Utility-first styling
+- **Context API** — Global state management
+- **Web Speech API** — Voice recognition and speech synthesis
+- **Gemini API** — AI-powered response generation
+- **React Icons + GIFs** — Animated feedback and UI polish
+
+---
+
+## ✨ Features
+
+- 🎤 Voice input with real-time recognition
+- 🤖 Gemini-powered AI responses
+- 🧠 Global state via Context API
+- 🖼️ Speaking/listening indicators using GIFs
+- 🔗 Voice-triggered website opening (YouTube, Google, GitHub, KIIT, etc.)
+- 🧩 Beginner-friendly Hinglish command support
+- 📱 Responsive UI with animated transitions
+
+---
+
+## 📋 Supported Commands
+
+| Type            | Examples                              |
+|-----------------|----------------------------------------|
+| Open websites   | "open YouTube", "open GitHub", "open KIIT" |
+| Info responses  | "what's the time", "tell me a joke", "battery status" |
+| AI fallback     | "motivate me", "your name", "weather" |
+| Greetings       | "hello", "hi"                          |
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/sahil43karmakar/LuxAI.git
+cd LuxAI
+npm install
+npm start
